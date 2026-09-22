@@ -25,8 +25,7 @@ I am not familiar with the checkpoints but it doesn't look like it should be abl
 
 ## WS 2: rsync unavailable - ftp script needs doublechecking
 
-Additionally for Workstation 2 or the respective NAS station, rsync could not be activated. Thus an FTP script has been written. sure it actually works as expected though. This however only makes sense if there is enough storage to actually save the data. 
-
+Additionally for Workstation 2 or the respective NAS station, rsync could not be activated by Simon. Thus an FTP script has been written. It needs to be ensured that it actually works as expected though. It throws some awkward error messages. This however only makes sense if there is enough storage to actually save the data, because it could also be linked to storage issues. 
 
 # Edit crontap with local user
 ``crontab -e``
